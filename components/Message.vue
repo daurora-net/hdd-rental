@@ -2,10 +2,10 @@
     <div class="message">
         <div class="flex">
             <p class="name">{{ post.user.name }}</p>
-            <img class="icon" src="../assets/img/heart.png" @click="handleToggleLike" />
+            <img class="icon" src="~/assets/img/heart.png" @click="handleToggleLike" />
             <p class="number">{{ post.likes.length }}</p>
-            <img class="icon" src="../assets/img/cross.png" @click="emitDeletePost" />
-            <img class="icon detail" src="../assets/img/detail.png" @click="goPostDetail"
+            <img class="icon" src="~/assets/img/cross.png" @click="emitDeletePost" />
+            <img class="icon detail" src="~/assets/img/detail.png" @click="goPostDetail"
                 v-if="$route.name === 'index'" />
         </div>
         <p class="text">{{ post.content }}</p>
