@@ -1,13 +1,13 @@
 <template>
     <div>
         <div class="left-padding">
-            <img class="logo" src="~/assets/img/logo.png" />
+            <img class="logo" src="/logo.png" />
             <div class="flex icon-field" @click="$router.push('/')">
-                <img class="icon" src="~/assets/img/home.png" />
+                <img class="icon" src="/home.png" />
                 <p>ホーム</p>
             </div>
             <div class="flex icon-field" @click="logout">
-                <img class="icon" src="~/assets/img/logout.png" />
+                <img class="icon" src="/logout.png" />
                 <p>ログアウト</p>
             </div>
         </div>
